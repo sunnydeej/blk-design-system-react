@@ -23,7 +23,7 @@ import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
-import LandingOptions from "views/IndexSections/LandingOptions.js";
+import Basics from "views/IndexSections/Basics.js";
 import Navbars from "views/IndexSections/Navbars.js";
 import Tabs from "views/IndexSections/Tabs.js";
 import Pagination from "views/IndexSections/Pagination.js";
@@ -49,7 +49,7 @@ export default function Index() {
       <div className="wrapper">
         <PageHeader />
         <div className="main">
-          <LandingOptions />
+          <Basics />
           <Navbars />
           <Tabs />
           <Pagination />
