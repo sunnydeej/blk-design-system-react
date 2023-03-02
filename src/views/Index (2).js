@@ -19,11 +19,11 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import Home from "views/IndexSections/Home.js";
+import PageHeader from "components/PageHeader/PageHeader.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
-import LandingOptions from "views/IndexSections/LandingOptions.js";
+import Basics from "views/IndexSections/Basics.js";
 import Navbars from "views/IndexSections/Navbars.js";
 import Tabs from "views/IndexSections/Tabs.js";
 import Pagination from "views/IndexSections/Pagination.js";
@@ -46,17 +46,20 @@ export default function Index() {
   return (
     <>
       <IndexNavbar />
-<<<<<<< HEAD
-      <div style ={{background: 'black'}} className="wrapper ">
-        <PageHeader />
-=======
       <div className="wrapper">
-        <Home />
->>>>>>> 095c3c3baabc6a56c263d26c11dd046383624ba1
+        <PageHeader />
         <div className="main">
-          <LandingOptions />
-
-          
+          <Basics />
+          <Navbars />
+          <Tabs />
+          <Pagination />
+          <Notifications />
+          <Typography />
+          <JavaScript />
+          <NucleoIcons />
+          <Signup />
+          <Examples />
+          <Download />
         </div>
         <Footer />
       </div>

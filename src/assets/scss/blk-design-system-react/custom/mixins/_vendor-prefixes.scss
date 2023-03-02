@@ -203,14 +203,30 @@
 
 @keyframes move-left-right{
   0%{
-    transform: translateX(-10px);
+    transform: translateX(-50px);
   }
 
   50%{
-    transform: translateX(10px);
+    transform: translateX(50px);
   }
 
   100%{
-    transform: translateX(-10px);
+    transform: translateX(-50px);
   }
+
+ 
 }
+ @keyframes move-up-down-deanna{
+  0%{
+    transform: translateY(-50px);
+  }
+
+  50%{
+    transform: translateY(50px);
+  }
+
+  100%{
+    transform: translateY(-50px);
+  }
+ }
+

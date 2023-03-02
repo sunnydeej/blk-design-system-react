@@ -46,7 +46,7 @@
       }
 
       &.square2{
-        animation: move-left-right 6s infinite;
+        animation: move-left-right 50s infinite;
         height: 400px;
         width: 400px;
         opacity: 0.4;
@@ -91,7 +91,7 @@
       }
 
       &.square7{
-        animation: move-left-right 3s infinite;
+        animation: move-up-down-deanna 3s infinite;
         width: 300px;
         height: 300px;
         right: -5%;
@@ -615,4 +615,8 @@
   .info:first-of-type {
     padding-top: 60%;
   }
+}
+.rowC {
+    display: flex;
+    flex-direction: row;
 }
