@@ -108,7 +108,9 @@ export default function ProfilePage() {
             <Row>
               <Col lg="6" md="6">
                 <h1 className="profile-title text-left">Mike Scheinder</h1>
-                <h5 className="text-on-back">01</h5>
+                <h5 className="text-on-back" id="deej">01</h5>
+                <h5 className="text-on-back" id="you">01</h5>
+
                 <p className="profile-description">
                   Offices parties lasting outward nothing age few resolve.
                   Impression to discretion understood to we interested he

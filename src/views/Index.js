@@ -46,7 +46,7 @@ export default function Index() {
   return (
     <>
       <IndexNavbar />
-      <div className="wrapper">
+      <div style ={{background: 'black'}} className="wrapper ">
         <PageHeader />
         <div className="main">
           <Basics />
