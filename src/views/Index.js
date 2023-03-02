@@ -19,7 +19,7 @@ import React from "react";
 
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
-import PageHeader from "components/PageHeader/PageHeader.js";
+import Home from "views/IndexSections/Home.js";
 import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
@@ -47,19 +47,11 @@ export default function Index() {
     <>
       <IndexNavbar />
       <div className="wrapper">
-        <PageHeader />
+        <Home />
         <div className="main">
           <LandingOptions />
-          <Navbars />
-          <Tabs />
-          <Pagination />
-          <Notifications />
-          <Typography />
-          <JavaScript />
-          <NucleoIcons />
-          <Signup />
-          <Examples />
-          <Download />
+
+          
         </div>
         <Footer />
       </div>
